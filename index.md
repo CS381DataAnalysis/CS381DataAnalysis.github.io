@@ -20,8 +20,8 @@ The Confusion Matrix
 Expected Value :
 EV = p(o1) · v(o1) + p(o2) · v(o2) + p(o3) · v(o3) ... 
    
-#### Step 2:
-Data cleaning: how many errors  or missing data
+#### Step 2 Data cleaning:
+how many errors  or missing data
 #### Step3
 
 ### Questions: 
