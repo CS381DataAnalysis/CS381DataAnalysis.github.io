@@ -1,7 +1,9 @@
 ## CS381 Data Analysis Project
 
 Data set name: 2018 Yellow Taxi Trip Data
+
 Data set URL: [https://data.cityofnewyork.us/Transportation/2018-Yellow-Taxi-Trip-Data/t29m-gskq](https://data.cityofnewyork.us/Transportation/2018-Yellow-Taxi-Trip-Data/t29m-gskq)
+
 Data dictionary name: data_dictionarydata_dictionary_trip_records_yellow.pdf
 
 ### Business idea 1:
