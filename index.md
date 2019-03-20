@@ -1,13 +1,13 @@
 ## CS381 Data Analysis Project
 
-Data set name: 2018 Yellow Taxi Trip Data:
-Data set URL: https://data.cityofnewyork.us/Transportation/2018-Yellow-Taxi-Trip-Data/t29m-gskq
-Data dictionary name:
-data_dictionarydata_dictionary_trip_records_yellow.pdf
+Data set name: 2018 Yellow Taxi Trip Data
+Data set URL: [https://data.cityofnewyork.us/Transportation/2018-Yellow-Taxi-Trip-Data/t29m-gskq](https://data.cityofnewyork.us/Transportation/2018-Yellow-Taxi-Trip-Data/t29m-gskq)
+Data dictionary name: data_dictionarydata_dictionary_trip_records_yellow.pdf
 
 ### Business idea 1:
 As a taxi company, or FHV company like Uber/Lyft, Which customer we should send promotion?
-Company’s targets : maximize income or   maximize market share( the number of customers)?  So we may have two solutions.
+Company’s targets : maximize income or maximize market share( the number of customers)?  
+So we may have two solutions.
 
 ### Implement steps:
 #### Step 1:  think about dependencies.
