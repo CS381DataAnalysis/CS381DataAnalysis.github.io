@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+## CS381 Data Analysis Project
 
-You can use the [editor on GitHub](https://github.com/CS381DataAnalysis/CS381DataAnalysis.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Data set name: 2018 Yellow Taxi Trip Data:
+Data set URL: https://data.cityofnewyork.us/Transportation/2018-Yellow-Taxi-Trip-Data/t29m-gskq
+Data dictionary name:
+data_dictionarydata_dictionary_trip_records_yellow.pdf
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Business idea 1:
+As a taxi company, or FHV company like Uber/Lyft, Which customer we should send promotion?
+Company’s targets : maximize income or   maximize market share( the number of customers)?  So we may have two solutions.
 
-### Markdown
+### Implement steps:
+#### Step 1:  think about dependencies.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Dependent variable : income.  
+How to calculate income:  trips *fare_price.
+Which hour on weekdays/weekend , we have the lowest total income(gross/net)?
+Does promotion and income have a positive relationship?
+The Confusion Matrix 
+Expected Value :
+EV = p(o1) · v(o1) + p(o2) · v(o2) + p(o3) · v(o3) ... 
+   
+#### Step 2:
+Data cleaning: how many errors  or missing data
+#### Step3
 
-```markdown
-Syntax highlighted code block
+### Questions: 
+1. pickup or drop off time?
+2. Choose pickup time.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/CS381DataAnalysis/CS381DataAnalysis.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
