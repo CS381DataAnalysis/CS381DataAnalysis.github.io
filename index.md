@@ -31,14 +31,11 @@ target variable depends on the above instances.
 Predict the sales on a particular day.
 
 #### Step 3 Data cleaning:
-<<<<<<< HEAD
-1. Reduce errors or missing data.
-2. General analysis.
-=======
+
 1.Reduce errors or missing data.
 
 2.General analysis.
->>>>>>> 47c4a0bcef74c90787e055b85164d7411335db89
+
 
 #### Step 4 Modeling
 1. model selection : linear 
