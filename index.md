@@ -1,20 +1,19 @@
 ## CS381 Data Analysis Project
 
-Data set name: 2018 Yellow Taxi Trip Data
+### Business idea
+Forecast sales using store, promotion, holiday and competitor data
 
-Data set URL: [https://data.cityofnewyork.us/Transportation/2018-Yellow-Taxi-Trip-Data/t29m-gskq](https://data.cityofnewyork.us/Transportation/2018-Yellow-Taxi-Trip-Data/t29m-gskq)
+### Dataset infomation and instences
 
-Data dictionary name: data_dictionarydata_dictionary_trip_records_yellow.pdf
+Dataset name: Rossmann Store Sales
+Dataset URL: [https://www.kaggle.com/c/rossmann-store-sales/data](https://www.kaggle.com/c/rossmann-store-sales/data)
 
-### Business idea 1:
-As a taxi company, or FHV company like Uber/Lyft, Which customer we should send promotion?
-
-Company’s targets : maximize income or maximize market share( the number of customers)?  
-
-So we may have two solutions.
 
 ### Implement steps:
-#### Step 1:  think about dependencies.
+#### Step 1:  Target value.
+
+
+#### Step 2:  think about dependencies.
 
 Dependent variable : income.  
 
