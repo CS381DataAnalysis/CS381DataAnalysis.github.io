@@ -20,7 +20,7 @@ Dataset URL: [https://www.kaggle.com/c/rossmann-store-sales/data](https://www.ka
 
 <image src="Store1_data_info.png" width="700" />
 
-###Application scenarios
+### Use scenarios
 Get prediction results of the sales, try to find the relationship between sales , and independant variables
 
 ### Implement steps:
