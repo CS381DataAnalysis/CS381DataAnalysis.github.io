@@ -50,3 +50,5 @@ Predict the sales on a particular day.
 Using The Confusion Matrix to increase the accuracy.
 
 Expected Value : EV = p(o1) · v(o1) + p(o2) · v(o2) + p(o3) · v(o3) ...
+### Supervised or Unsupervised
+It is supervised, since we have a sepcific target and there's data on this target
