@@ -29,6 +29,7 @@ Predict the sales on a particular day.
    
 #### Step 3 Data cleaning:
 1.Reduce errors or missing data.
+
 2.General analysis.
 
 #### Step 4 Modeling
