@@ -1,5 +1,8 @@
 ## CS381 Data Analysis Project
-
+Team:
+  1. Jatinkumar Patel,
+  2. Deep Shah,
+  3. Ramanjeet Singh,
 ### Business idea
 Forecast sales using store, promotion, holiday and competitor data
 
