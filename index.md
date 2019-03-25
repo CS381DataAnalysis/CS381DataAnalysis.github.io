@@ -6,7 +6,9 @@ Forecast sales using store, promotion, holiday and competitor data
 ### Dataset infomation and instences
 
 Dataset name: Rossmann Store Sales
+
 Dataset URL: [https://www.kaggle.com/c/rossmann-store-sales/data](https://www.kaggle.com/c/rossmann-store-sales/data)
+
 <image src="Store1_data_info.png" width="400" />
 
 ### Implement steps:
