@@ -10,13 +10,21 @@ Team members:
   7. Shengyou Zheng
   
 ### Business idea
-Forecast sales using store, promotion, holiday and competitor data
+Forecast sales using store data(ex, how far it is from competitors),Day of week, promotion(ex. If store runs promotion or not), holiday(sale on holiday) and competitor data.
+
+Data mining problem in this case will be to clear out unnecessary data and make valid connection in between independent variables to minimize the error.
+
+Supervised. 
+
+Target variable will the sale of a store, it will add business value by helping the business to increase its sale and make more profit.
 
 ### Dataset infomation and instences
 
 Dataset name: Rossmann Store Sales
 
 Dataset URL: [https://www.kaggle.com/c/rossmann-store-sales/data](https://www.kaggle.com/c/rossmann-store-sales/data)
+
+Data Instance selection is an important data pre-processing step that can be applied in many data mining tasks.
 
 <image src="Store1_data_info.png" width="700" />
 
@@ -50,5 +58,4 @@ Predict the sales on a particular day.
 Using The Confusion Matrix to increase the accuracy.
 
 Expected Value : EV = p(o1) · v(o1) + p(o2) · v(o2) + p(o3) · v(o3) ...
-### Supervised or Unsupervised
-It is supervised, since we have a sepcific target and there's data on this target
+
