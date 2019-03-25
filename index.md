@@ -10,18 +10,17 @@ Dataset URL: [https://www.kaggle.com/c/rossmann-store-sales/data](https://www.ka
 
 
 ### Implement steps:
-#### Step 1:  Target value.
+#### Step 1:  Target variable.
 
+sales
 
 #### Step 2:  think about dependencies.
 
-Dependent variable : income.  
+independent variable : DayOfWeek, Customers, Promo, SchoolHoliday.  
 
-How to calculate income:  trips *fare_price.
+target variable depends on the above instances.
 
-Which hour on weekdays/weekend , we have the lowest total income(gross/net)?
-
-Does promotion and income have a positive relationship?
+Predict the sales on a particular day.
 
 The Confusion Matrix 
 
