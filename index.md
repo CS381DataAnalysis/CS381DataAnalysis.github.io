@@ -30,7 +30,7 @@ dependent variable: sales
 
 #### Step 2:  Choose independent variable.
 
-independent variable : DayOfWeek, Customers, Promo, SchoolHoliday.  
+independent variable : DayOfWeek, Number of Customers, Promotion(true/false), SchoolHoliday.  
 
 target variable depends on the above instances.
 
