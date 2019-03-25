@@ -29,17 +29,21 @@ independent variable : DayOfWeek, Customers, Promo, SchoolHoliday.
 target variable depends on the above instances.
 
 Predict the sales on a particular day.
-   
+
 #### Step 3 Data cleaning:
+<<<<<<< HEAD
+1. Reduce errors or missing data.
+2. General analysis.
+=======
 1.Reduce errors or missing data.
 
 2.General analysis.
+>>>>>>> 47c4a0bcef74c90787e055b85164d7411335db89
 
 #### Step 4 Modeling
+1. model selection : linear 
 
+#### Step 5 Testing
+Using The Confusion Matrix to increase the accuracy.
 
-
-
- 
-
-
+Expected Value : EV = p(o1) · v(o1) + p(o2) · v(o2) + p(o3) · v(o3) ...
