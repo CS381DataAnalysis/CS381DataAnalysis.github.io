@@ -12,7 +12,7 @@ Dataset URL: [https://www.kaggle.com/c/rossmann-store-sales/data](https://www.ka
 ### Implement steps:
 #### Step 1:  Target variable.
 
-sales
+dependent variable: sales
 
 #### Step 2:  think about dependencies.
 
