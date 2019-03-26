@@ -53,7 +53,7 @@ Predict the sales on a particular day.
 
 
 #### Step 4 Modeling
-1. model selection : linear 
+1. model selection : Linear Regression
 
 #### Step 5 Testing
 Using The Confusion Matrix to increase the accuracy.
