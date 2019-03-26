@@ -1,5 +1,6 @@
 ## CS381 Data Analysis Project
 Team name: Data Rangers
+
 Team members:
   1. Jatinkumar Patel
   2. Deep Shah
