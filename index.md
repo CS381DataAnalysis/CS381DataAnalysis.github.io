@@ -8,7 +8,6 @@ Team members:
   4. Ning Wei
   5. Jingwei Chen
   6. Jiawei Yang
-  7. Shengyou Zheng
   
 ### Business idea
 Forecast sales using store data(ex, how far it is from competitors),Day of week, promotion(ex. If store runs promotion or not), holiday(sale on holiday) and competitor data.
