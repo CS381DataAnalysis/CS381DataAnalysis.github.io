@@ -57,7 +57,9 @@ Dataset URL: [https://www.kaggle.com/c/rossmann-store-sales/data](https://www.ka
 <image src="plot.png" />
 
 ### D. Model Evaluation
-- Use Cross Validation
+- Use Cross Validation<br/>
+<image src="cvresult.png" />
+<image src="cvplot.png" />
 - How good is the model?
 - How result should be evaluated?
 
