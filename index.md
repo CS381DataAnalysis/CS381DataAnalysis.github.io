@@ -24,17 +24,13 @@ Dataset name: Rossmann Store Sales
 
 Dataset URL: [https://www.kaggle.com/c/rossmann-store-sales/data](https://www.kaggle.com/c/rossmann-store-sales/data)
 
-Data Instance selection is an important data pre-processing step that can be applied in many data mining tasks.
 Target variable will be the sales of a store, 
-#### 1. Data Understanding
-##### a. Gathering data
-###### I. Outline data requirements
-###### II. Verify data availability
-###### III. Define selection criteria
-##### b. Describing data
-##### c. Exploring data
-##### d. Verifying data quality
-#### 2. Data Preparation
+
+- Data Understanding
+  - Selection criteria
+    - We will use the data in train.csv, 
+  - Describing data
+- Data Preparation
 ##### a. Selecting data
 ##### b. Cleaning data
 ##### c. Constructing data
