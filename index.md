@@ -26,7 +26,7 @@ Dataset URL: [https://www.kaggle.com/c/rossmann-store-sales/data](https://www.ka
 
 - Data Understanding
   - Selection criteria
-    - We will use the data in train.csv, it contains 9 fields.<br/>
+    - We will use the data in data.csv, it contains 9 fields.<br/>
     <image src="identify.png" />
   - Describing data<br/>
     <image src="describe.png" />
@@ -54,6 +54,8 @@ Dataset URL: [https://www.kaggle.com/c/rossmann-store-sales/data](https://www.ka
 
 ### D. Model Evaluation
 - Use Train/Test Split Technique with Root Mean Square Error
+  - Use python to split data.csv into train.csv and test.csv
+
 - How good is the model?
 - How result should be evaluated?
 
