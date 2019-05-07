@@ -30,7 +30,7 @@ Target variable will be the sales of a store,
   - Selection criteria
     - We will use the data in train.csv, it contains 9 fields.
     <image src="identify.png" />
-  - Describing data
+  - Describing data  
     <image src="describe.png" />
     - Store means different store numbers, Day of week ranges from 1 - 7 indicates Monday - Sunday, Date has exactly day, month, year, Sales is the total sale for one day, Customer is the # of people who visits the store, Open indicates the store is open if is 1, closed if it is 0, State Holiday has #0 or 1, 0 means no state holiday, 1 means there is state holiday, School Holiday contains the major holidays, 0 means there is no school holiday, 1 mean there is school holiday.
 - Data Preparation
