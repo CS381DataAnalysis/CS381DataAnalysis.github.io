@@ -46,23 +46,18 @@ Dataset URL: [https://www.kaggle.com/c/rossmann-store-sales/data](https://www.ka
 - Model Selection
   - We will build the model using Linear Regression(Supervised).
 - Alternative choice/Pros and Cons
-  - Since we are going to predict a numerical value based on the historical data, linear regression algorithm are sufficient, because it can be used to predict our target variable and describe/explains the relationship between one or more independent variable.
-- Why and how selected model would solve business problems?
-- Designing test set
-- Building model
+  - Since we are going to predict a numerical value based on the historical data, linear regression algorithm are sufficient, because it can be used to predict our target variable and describe/explains the relationship between one or more independent variables.
+- The selected model should be able to tell us how independent variable related to the target variable, for example if variable Promo show most siginifcance(P-VALUE > 0.05) in the model, Holiday, Day of Week, and Customer shows no significance(P-VALUE <= 0.05), then we know that giving out promotion on any day would increase our sale.
+- Building model<br/>
+
 
 ### D. Model Evaluation
-- What technique used?
+- Use Train/Test Split Technique with Root Mean Square Error
 - How good is the model?
 - How result should be evaluated?
-- Explicitly state whether you have reached the business goals defined at the start of the project.
-
-<!-- Using The Confusion Matrix to increase the accuracy.
-Expected Value : EV = p(o1) · v(o1) + p(o2) · v(o2) + p(o3) · v(o3) ... -->
 
 ### E. Deployment
 - How do you plan to deploy/use this model(How result will be deployed)(A strategy for putting it to work in your business)?
 - Any issue the company should be aware of regarding deployment?
-
 - Use scenarios
 Get prediction results of the sales, try to find the relationship between sales , and independant variables
