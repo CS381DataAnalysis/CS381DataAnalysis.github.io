@@ -38,7 +38,7 @@ Dataset URL: [https://www.kaggle.com/c/rossmann-store-sales/data](https://www.ka
 	- Since we are not doing competition we will filter to only 1 store, Date will be removed because we only care about which day of the week, we will filter Open to 1 because if the store is closed there will be no income, we will also remove State Holiday because we only care about the major holiday, and not every place has state holiday.<br/>
 	<image src="clean.png" />
   - Formatting data
-    - We will format/arrange the order of these field for later use.</br>
+    - We will format/arrange the order of these field for later use.<br/>
     <image src="format.png" />
 	- Now we will have sales as our target/dependent variable, Day of Week, Customers, Promo, School Holiday as our independent varible.
 
