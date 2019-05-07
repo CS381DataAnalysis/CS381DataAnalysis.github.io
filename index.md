@@ -26,13 +26,20 @@ Dataset URL: [https://www.kaggle.com/c/rossmann-store-sales/data](https://www.ka
 
 Data Instance selection is an important data pre-processing step that can be applied in many data mining tasks.
 
-##### Gathering data
-###### Outline data requirements
-###### Verify data availability
-###### Define selection criteria
-##### Describing data
-##### Exploring data
-##### Verifying data quality
+#### 1. Data Understanding
+##### a. Gathering data
+###### I. Outline data requirements
+###### II. Verify data availability
+###### III. Define selection criteria
+##### b. Describing data
+##### c. Exploring data
+##### d. Verifying data quality
+#### 2. Data Preparation
+##### a. Selecting data
+##### b. Cleaning data
+##### c. Constructing data
+##### d. Integrating data
+##### e. Formatting data
 
 <image src="Store1_data_info.png" width="700" />
 
