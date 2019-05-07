@@ -47,7 +47,7 @@ Dataset URL: [https://www.kaggle.com/c/rossmann-store-sales/data](https://www.ka
   - We will build the model using Linear Regression(Supervised).
 - Alternative choice/Pros and Cons
   - Since we are going to predict a numerical value based on the historical data, linear regression algorithm are sufficient, because it can be used to predict our target variable and describe/explains the relationship between one or more independent variables.
-- The selected model should be able to tell us how independent variable related to the target variable, for example if variable Promo show no siginifcance(P-VALUE > 0.05) in the model, Holiday, Day of Week, and Customer shows most  significance(P-VALUE <= 0.05), then we know that giving out promotion on any day would increase our sale.
+- The selected model should be able to tell us how independent variable related to the target variable, for example if variable Promo show most siginifcance(P-VALUE <= 0.05) in the model, Holiday, Day of Week, and Customer shows no  significance(P-VALUE > 0.05), then we know that giving out promotion on any day would increase our sale.
 - Building model<br/>
 <image src="model1.png" />
 <image src="model2.png" />
