@@ -12,11 +12,11 @@ Team members:
 ### A. Business Problem/Understanding
 
 - Business goals
-  Company wants to imporve sales
+  - Company wants to imporve sales
 - Data-mining goals
-  Predict sales based on day of week(which day has higher sales), promotion(If store runs promotion or not), holiday(sale on holiday) and number of customers.
-
-  Target variable will be the sales of a store, by identifying the relationship between promotions, holidays and day of week, we can find out how it leads to higer sales or lower sales, depends on the result, we can make the right desicion to help the company to increase its sales and make more profit.
+  - Predict sales based on day of week(which day has higher sales), promotion(If store runs promotion or not), holiday(sale on holiday) and number of customers.
+- Success criteria
+  - By identifying the relationship between promotions, holidays and day of week, we can find out how it leads to higer sales or lower sales, depends on the result, we can make the right desicion to help the company to increase its sales and make more profit.
 
 ### B. Data Understanding/Preparation/Source
 
@@ -25,7 +25,7 @@ Dataset name: Rossmann Store Sales
 Dataset URL: [https://www.kaggle.com/c/rossmann-store-sales/data](https://www.kaggle.com/c/rossmann-store-sales/data)
 
 Data Instance selection is an important data pre-processing step that can be applied in many data mining tasks.
-
+Target variable will be the sales of a store, 
 #### 1. Data Understanding
 ##### a. Gathering data
 ###### I. Outline data requirements
