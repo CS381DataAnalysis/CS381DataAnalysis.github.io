@@ -9,7 +9,7 @@ Team members:
   5. Jingwei Chen
   6. Jiawei Yang
   
-### Business idea
+### A. Business Problem/Understanding
 Forecast sales using store data(ex, how far it is from competitors),Day of week, promotion(ex. If store runs promotion or not), holiday(sale on holiday) and competitor data.
 
 Data mining problem in this case will be to clear out unnecessary data and make valid connection in between independent variables to minimize the error.
@@ -18,7 +18,7 @@ Supervised.
 
 Target variable will the sale of a store, it will add business value by helping the business to increase its sale and make more profit.
 
-### Dataset infomation and instences
+### B. Data Understanding/Preparation/Source
 
 Dataset name: Rossmann Store Sales
 
@@ -51,11 +51,12 @@ Predict the sales on a particular day.
 2.General analysis.
 
 
-#### Step 4 Modeling
+### C. Model
 1. model selection : Linear Regression
 
-#### Step 5 Testing
+### D. Model Evaluation
+
+### E. Deployment
 Using The Confusion Matrix to increase the accuracy.
 
 Expected Value : EV = p(o1) · v(o1) + p(o2) · v(o2) + p(o3) · v(o3) ...
-
