@@ -51,7 +51,9 @@ Dataset URL: [https://www.kaggle.com/c/rossmann-store-sales/data](https://www.ka
 - Building model<br/>
 <image src="model1.png" /><br/>
 <image src="model2.png" /><br/>
+- Split into training set and test set<br/>
 <image src="split.png" /><br/>
+- Plot<br/>
 <image src="plot.png" />
 
 ### D. Model Evaluation
