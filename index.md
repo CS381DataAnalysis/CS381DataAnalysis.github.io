@@ -10,14 +10,18 @@ Team members:
   6. Jiawei Yang
   
 ### A. Business Problem/Understanding
-Forecast sales using store data(ex, how far it is from competitors),Day of week, promotion(ex. If store runs promotion or not), holiday(sale on holiday) and competitor data.
 
-Data mining problem in this case will be to clear out unnecessary data and make valid connection in between independent variables to minimize the error.
+- Business goals
+  Company wants to imporve sales
+- Data-mining goals
+  Forecast sales using store data(ex, how far it is from competitors),Day of week, promotion(ex. If store runs promotion or not), holiday(sale on holiday) and competitor data.
 
-Supervised. 
+  Data mining problem in this case will be to clear out unnecessary data and make valid connection in between independent variables to minimize the error.
 
-Target variable will the sale of a store, it will add business value by helping the business to increase its sale and make more profit.
+  Supervised. 
 
+  Target variable will the sale of a store, it will add business value by helping the business to increase its sale and make more profit.
+  
 ### B. Data Understanding/Preparation/Source
 
 Dataset name: Rossmann Store Sales
