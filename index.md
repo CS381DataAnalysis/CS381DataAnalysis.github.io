@@ -43,15 +43,25 @@ Dataset URL: [https://www.kaggle.com/c/rossmann-store-sales/data](https://www.ka
 	- Now we will have sales as our target/dependent variable, Day of Week, Customers, Promo, School Holiday as our independent varible.
 
 ### C. Model
-- Model Selection : Linear Regression
+- Selected Model: Linear Regression
+- Alternative choice?
+- Pros and Cons?
+- Why and how selected model would solve business problems?
+- Designing test set
+- Building model
 
 ### D. Model Evaluation
+- What technique used?
+- How good is the model?
+- How result should be evaluated?
+- Explicitly state whether you have reached the business goals defined at the start of the project.
+
+<!-- Using The Confusion Matrix to increase the accuracy.
+Expected Value : EV = p(o1) · v(o1) + p(o2) · v(o2) + p(o3) · v(o3) ... -->
 
 ### E. Deployment
+- How do you plan to deploy/use this model(How result will be deployed)(A strategy for putting it to work in your business)?
+- Any issue the company should be aware of regarding deployment?
 
 - Use scenarios
 Get prediction results of the sales, try to find the relationship between sales , and independant variables
-
-Using The Confusion Matrix to increase the accuracy.
-
-Expected Value : EV = p(o1) · v(o1) + p(o2) · v(o2) + p(o3) · v(o3) ...
