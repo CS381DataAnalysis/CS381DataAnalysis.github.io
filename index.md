@@ -43,9 +43,10 @@ Dataset URL: [https://www.kaggle.com/c/rossmann-store-sales/data](https://www.ka
 	- Now we will have sales as our target/dependent variable, Day of Week, Customers, Promo, School Holiday as our independent varible.
 
 ### C. Model
-- Selected Model: Linear Regression
-- Alternative choice?
-- Pros and Cons?
+- Model Selection
+  - We will build the model using Linear Regression(Supervised).
+- Alternative choice/Pros and Cons
+  - Since we are going to predict a numerical value based on the historical data, linear regression algorithm are sufficient, because it can be used to predict our target variable and describe/explains the relationship between one or more independent variable.
 - Why and how selected model would solve business problems?
 - Designing test set
 - Building model
