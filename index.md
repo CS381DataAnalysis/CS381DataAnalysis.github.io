@@ -24,53 +24,34 @@ Dataset name: Rossmann Store Sales
 
 Dataset URL: [https://www.kaggle.com/c/rossmann-store-sales/data](https://www.kaggle.com/c/rossmann-store-sales/data)
 
-Target variable will be the sales of a store, 
-
 - Data Understanding
   - Selection criteria
-    - We will use the data in train.csv, it contains 9 fields.
+    - We will use the data in train.csv, it contains 9 fields.<br/>
     <image src="identify.png" />
   - Describing data<br/>
     <image src="describe.png" />
-    - Store means different store numbers, Day of week ranges from 1 - 7 indicates Monday - Sunday, Date has exactly day, month, year, Sales is the total sale for one day, Customer is the # of people who visits the store, Open indicates the store is open if is 1, closed if it is 0, State Holiday has #0 or 1, 0 means no state holiday, 1 means there is state holiday, School Holiday contains the major holidays, 0 means there is no school holiday, 1 mean there is school holiday.
+    - Store means different store numbers, Day of week ranges from 1 - 7 indicates Monday - Sunday, Date has exactly day, month, year, Sales is the total sale for one day, Customer is the # of people who visits the store, Open indicates the store is open if is 1, closed if it is 0, Promo indicates either store is offering promotion with 0 or 1, State Holiday has #0 or 1, 0 means no state holiday, 1 means there is state holiday, School Holiday contains the major holidays, 0 means there is no school holiday, 1 mean there is school holiday.
 - Data Preparation
-##### a. Selecting data
-##### b. Cleaning data
-##### c. Constructing data
-##### d. Integrating data
-##### e. Formatting data
-
-<image src="Store1_data_info.png" width="700" />
-
-### Use scenarios
-Get prediction results of the sales, try to find the relationship between sales , and independant variables
-
-### Implement steps:
-#### Step 1:  Target variable.
-
-dependent variable: sales
-
-#### Step 2:  Choose independent variable.
-
-independent variable : DayOfWeek, Number of Customers, Promotion(true/false), SchoolHoliday.  
-
-target variable depends on the above instances.
-
-Predict the sales on a particular day.
-
-#### Step 3 Data cleaning:
-
-1.Reduce errors or missing data.
-
-2.General analysis.
-
+  - Selecting data
+    - In the table above we will select Day of week, Sales, Customers, Promo, School Holiday for us to use.
+  - Cleaning data
+	- Since we are not doing competition we will filter to only 1 store, Date will be removed because we only care about which day of the week, we will filter Open to 1 because if the store is closed there will be no income, we will also remove State Holiday because we only care about the major holiday, and not every place has state holiday.<br/>
+	<image src="" />
+  - Formatting data
+    - We will format/arrange the order of these field for later use.</br>
+    <image src="" />
+	- Now we will have sales as our target/dependent variable, Day of Week, Customers, Promo, School Holiday as our independent varible.
 
 ### C. Model
-1. model selection : Linear Regression
+- Model Selection : Linear Regression
 
 ### D. Model Evaluation
 
 ### E. Deployment
+
+- Use scenarios
+Get prediction results of the sales, try to find the relationship between sales , and independant variables
+
 Using The Confusion Matrix to increase the accuracy.
 
 Expected Value : EV = p(o1) · v(o1) + p(o2) · v(o2) + p(o3) · v(o3) ...
