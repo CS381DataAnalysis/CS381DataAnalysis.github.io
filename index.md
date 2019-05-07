@@ -28,9 +28,10 @@ Target variable will be the sales of a store,
 
 - Data Understanding
   - Selection criteria
-    - We will use the data in train.csv, it has 9 fields.
+    - We will use the data in train.csv, it contains 9 fields.
     <image src="identify.png" />
   - Describing data
+    <image src="describe.png" />
 - Data Preparation
 ##### a. Selecting data
 ##### b. Cleaning data
