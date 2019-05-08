@@ -1,11 +1,9 @@
 import pandas as pd
-import numpy as np
 from sklearn.model_selection import train_test_split, cross_val_score, cross_val_predict
 from sklearn.linear_model import LinearRegression
 from matplotlib import pyplot as plt
-from sklearn.model_selection import KFold
-from array import array
-from sklearn import metrics
+from sklearn.metrics import mean_squared_error
+from math import sqrt
 
 df = pd.read_csv('/Users/jc/Desktop/CS381DataAnalysis/data.csv')
 
@@ -25,24 +23,25 @@ print("\nx_test:\n")
 print(x_test.head())
 print(x_test.shape)
 
-lm = LinearRegression()
-model = lm.fit(x_train, y_train)
-predictions = lm.predict(x_test)
+linear = LinearRegression()
+linear.fit(x_train, y_train)
+predictions = linear.predict(x_test)
 
 plt.scatter(y_test, predictions)
+plt.plot(y_train, y_train, color = 'red')
 plt.xlabel('True Values')
 plt.ylabel('Predictions')
-# plt.show()
-
-print('Some of predictions: ', predictions[0:5])
-print('Model score: ', model.score(x_test,y_test))
-
-scores = cross_val_score(model, df, y, cv=6)
-print('Cross-validated scores', scores)
-
-predictions = cross_val_predict(model, df, y, cv=6)
-plt.scatter(y, predictions)
 plt.show()
 
-accuracy = metrics.r2_score(y, predictions)
-print('Cross-Predicted Accuracy:', accuracy)
+# get cross validation scores
+y_predicted = linear.predict(x_train)
+y_test_predicted = linear.predict(x_test)
+
+
+def rmse(x, y):
+    return sqrt(mean_squared_error(x, y))
+
+print("Training Model Accuracy" , ":" , linear.score(x_train, y_train) , "," ,
+      "Sample Test Model Accuracy" ,":" , linear.score(x_test, y_test))
+print("Training RMSE", ":", rmse(y_train, y_predicted),
+      "Testing RMSE", ":", rmse(y_test, y_test_predicted))

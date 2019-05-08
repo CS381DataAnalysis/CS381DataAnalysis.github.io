@@ -59,7 +59,7 @@ Dataset URL: [https://www.kaggle.com/c/rossmann-store-sales/data](https://www.ka
 ### D. Model Evaluation
 - Use Cross Validation<br/>
 <image src="validation.png" />
-<image src="model1.png.png" />
+<image src="model1.png" />
 - Accuracy for training model is close to test model
   - There should be no overfitting or underfitting
 - Training RMSE is close to Testing RMSE
