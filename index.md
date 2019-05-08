@@ -58,13 +58,18 @@ Dataset URL: [https://www.kaggle.com/c/rossmann-store-sales/data](https://www.ka
 
 ### D. Model Evaluation
 - Use Cross Validation<br/>
-<image src="cvresult.png" />
-<image src="cvplot.png" />
-- How good is the model?
-- How result should be evaluated?
+<image src="validation.png" />
+<image src="model1.png.png" />
+- Accuracy for training model is close to test model
+  - There should be no overfitting or underfitting
+- Training RMSE is close to Testing RMSE
+  - Training has lower RMSE which indicates it is better model than Test model
+- High R-square and Low P-value
+  - Model fits well, explains a lot of variation within the data and is significant
+- Testing are are similar to Training model, our model should be good.
 
 ### E. Deployment
 - How do you plan to deploy/use this model(How result will be deployed)(A strategy for putting it to work in your business)?
 - Any issue the company should be aware of regarding deployment?
 - Use scenarios
-Get prediction results of the sales, try to find the relationship between sales , and independant variables
+  - Get prediction results of the sales, try to find the relationship between sales, and independant variables.
