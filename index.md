@@ -69,9 +69,9 @@ Dataset URL: [https://www.kaggle.com/c/rossmann-store-sales/data](https://www.ka
 - Testing are are similar to Training model, our model should be good.
 
 ### E. Deployment
-- How do you plan to deploy/use this model(How result will be deployed)(A strategy for putting it to work in your business)?
-  Our formula : -718.0498064 + (Num of Customer)*9.376163695 + (Promotion)*463.3722705
-  Sales = 
+- Our formula : -718.0498064 + (Num of Customer)*9.376163695 + (Promotion)*463.3722705 + (Holiday) * 29.38885693 +(Day of week) *  	      -7.178433489
+  Sales = -718.0498064 + (555)*9.376163695 + (1)*463.3722705 + (1) * 29.38885693 +(5) * -7.178433489
+  	= 4942.59(predicted) and actual is 5263.
 - Any issue the company should be aware of regarding deployment?
 - Use scenarios
   - Get prediction results of the sales, try to find the relationship between sales, and independant variables.
