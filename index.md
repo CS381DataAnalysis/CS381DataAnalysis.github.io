@@ -40,7 +40,7 @@ Dataset URL: [https://www.kaggle.com/c/rossmann-store-sales/data](https://www.ka
   - Formatting data
     - We will format/arrange the order of these field for later use.<br/>
     <image src="format.png" />
-	- Now we will have sales as our target/dependent variable, Day of Week, Customers, Promo, School Holiday as our independent varible.
+- Now we will have sales as our target/dependent variable, Day of Week, Customers, Promo, School Holiday as our independent varible.
 
 ### C. Model
 - Model Selection
