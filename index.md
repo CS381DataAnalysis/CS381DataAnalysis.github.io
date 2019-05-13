@@ -16,7 +16,7 @@ Team members:
 - Data-mining goals
   - Predict sales based on day of week(which day has higher sales), promotion(If store runs promotion or not), holiday(sale on holiday) and number of customers.
 - Success criteria
-  - By identifying the relationship between promotions, holidays and day of week, we can find out how it leads to higer sales or lower sales, depends on the result, we can make the right desicion to help the company to increase its sales and make more profit.
+  - By identifying the relationship between promotions, holidays and day of week, we can find out how it leads to higher sales or lower sales, depends on the result, we can make the right desicion to help the company to increase its sales and make more profit.
 
 ### B. Data Understanding/Preparation/Source
 
@@ -30,7 +30,7 @@ Dataset URL: [https://www.kaggle.com/c/rossmann-store-sales/data](https://www.ka
     <image src="identify.png" />
   - Describing data<br/>
     <image src="describe.png" />
-    - Store means different store numbers, Day of week ranges from 1 - 7 indicates Monday - Sunday, Date has exactly day, month, year, Sales is the total sale for one day, Customer is the # of people who visits the store, Open indicates the store is open if is 1, closed if it is 0, Promo indicates either store is offering promotion with 0 or 1, State Holiday has #0 or 1, 0 means no state holiday, 1 means there is state holiday, School Holiday contains the major holidays, 0 means there is no school holiday, 1 mean there is school holiday.
+    - Store means different store numbers, Day of week ranges from 1 - 7 indicates Monday - Sunday, Date has exactly  month, day, year, Sales is the total sale for one day, Customer is the # of people who visits the store, Open indicates the store is open if is 1, closed if it is 0, Promo indicates either store is offering promotion with 0 or 1, State Holiday has #0 or 1, 0 means no state holiday, 1 means there is state holiday, School Holiday contains the major holidays, 0 means there is no school holiday, 1 mean there is school holiday.
 - Data Preparation
   - Selecting data
     - In the table above we will select Day of week, Sales, Customers, Promo, School Holiday for us to use.
