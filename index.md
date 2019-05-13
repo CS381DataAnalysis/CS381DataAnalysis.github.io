@@ -70,6 +70,8 @@ Dataset URL: [https://www.kaggle.com/c/rossmann-store-sales/data](https://www.ka
 
 ### E. Deployment
 - How do you plan to deploy/use this model(How result will be deployed)(A strategy for putting it to work in your business)?
+  Our formula : -718.0498064 + (Num of Customer)*9.376163695 + (Promotion)*463.3722705
+  Sales = 
 - Any issue the company should be aware of regarding deployment?
 - Use scenarios
   - Get prediction results of the sales, try to find the relationship between sales, and independant variables.
