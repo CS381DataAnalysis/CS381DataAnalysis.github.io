@@ -69,11 +69,11 @@ Dataset URL: [https://www.kaggle.com/c/rossmann-store-sales/data](https://www.ka
 <image src="validation.png" />
 <image src="model1.png" />
 - Accuracy for training model is close to test model
-  - There should be no overfitting or underfitting
+- There should be no overfitting or underfitting
 - Training RMSE is close to Testing RMSE
-  - Training has lower RMSE which indicates it is better model than Test model
+- Training has lower RMSE which indicates it is better model than Test model
 - High R-square and Low P-value
-  - Model fits well, explains a lot of variation within the data and is significant
+- Model fits well, explains a lot of variation within the data and is significant
 - Testing are are similar to Training model, our model should be good.
 
 ### E. Deployment
