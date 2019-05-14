@@ -76,7 +76,7 @@ Dataset URL: [https://www.kaggle.com/c/rossmann-store-sales/data](https://www.ka
 - Model fits well, explains a lot of variation within the data and is significant
 - Testing are are similar to Training model, our model should be good.
 
-### E. Deployment
+### E. Evaluation/Deployment
 - Our formula:<br/> 
 	- (-718.0498064) + (Num of Customer)*9.376163695 + (Promotion)*463.3722705 + (Holiday) * 29.38885693 +(Day of week) *  	      (-7.178433489)<br/>
 - Sales: = -718.0498064 + (555)*9.376163695 + (1)*463.3722705 + (1) * 29.38885693 +(5) * -7.178433489</br>
